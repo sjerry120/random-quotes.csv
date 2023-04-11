@@ -1,6 +1,6 @@
 import csv 
 
-""" Python program to demonstrate to add more quotes to random-quotes. """
+""" Python program to add more quotes to random-quotes. """
 
 def add_new_quote(filepath, quote, author):
     # Create a dictionary for the new quote
