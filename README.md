@@ -14,7 +14,7 @@ randomly select one quote, and print it to the console along with its author. Yo
 README file describing how to use your program and how to add new quotes to the file.
 
 Algorithm for implementation:
-------------------------------
+-----------------------------
 - Read in csv file
 - Convert to dictionary
 - Import random module for selecting a random quote. We use random.choice to select a single key: value pair from the quotes dictionary.
