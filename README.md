@@ -19,8 +19,16 @@ Algorithm for implementation:
 - Convert to dictionary
 - Import random module for selecting a random quote. We use random.choice to select a single key: value pair from the quotes dictionary.
 - Use string formatting to print random quote generated in this format:
--To add new quotes to the file you can run the "add_quotes" python file and follow the prompt in your console to add unique quotes and authors.
+
+"A random quote" - some author
 
 
-	“A random quote” -  some author
+Usage Instructions
+-------------------
+- Clone the repository to your local machine.
+- Navigate to the repository directory.
+- Make sure you have Python installed.
+- Run the random_quote_generator.py file using a Python interpreter. This will randomly select a quote from the existing CSV file and print it to the console along with its author.
+- If you want to add new quotes to the CSV file, you can run the add_quotes.py file. Follow the prompts in your console to enter unique quotes and authors, and they will be added to the CSV file.
 
+Note: You can also manually edit the CSV file directly to add new quotes, following the format of existing quotes.
