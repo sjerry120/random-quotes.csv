@@ -4,5 +4,5 @@ A repository created to practice and improve collaboration &amp; version control
 Team members
 ------------
 - Nathan Turkson
-- - Francis Arkoful
+- Francis Arkoful
 - Daniella Omenogor
