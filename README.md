@@ -4,12 +4,10 @@ A repository created to practice and improve collaboration &amp; version control
 
 Team members
 ------------
-- Nathan Turkson
-- Francis Arkoful
-- Daniella Omenogor
+Nathan Turkson, Francis Arkoful, Daniella Omenogor
 
 
-Assignment prompt: 
+Prompt: 
 -------------------
 Write a program to read in a file containing a list of quotes and their authors,
 randomly select one quote, and print it to the console along with its author. You should also include a
