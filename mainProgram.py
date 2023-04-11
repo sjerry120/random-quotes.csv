@@ -1,13 +1,18 @@
+# import dependencies
 import csv
 import random
 
-# Open the CSV file and read the quotes into a list
-with open('random-quotes.csv', 'r') as csvfile:
-    reader = csv.DictReader(csvfile)
-    quotes = [row for row in reader]
 
-# Select a random quote from the list
-quote = random.choice(quotes)
+def random_quote_generator(filepath) -> None:
+    # Open the CSV file and read the quotes into a list
+    with open(filepath, 'r') as csvfile:
+        reader = csv.DictReader(csvfile)
+        quotes = [row for row in reader]
 
-# Print the quote and its author
-print(f'"{quote["quote"]}" - {quote["author"]}')
+    # Select a random quote from the list
+    quote = random.choice(quotes)
+
+    # Print the random quote and its author
+    print(f'"{quote["quote"]}" - {quote["author"]}')
+
+random_quote_generator('random-quotes.csv')
