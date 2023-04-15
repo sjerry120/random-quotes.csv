@@ -16,3 +16,4 @@ def random_quote_generator(filepath) -> None:
     print(f'"{quote["quote"]}" - {quote["author"]}')
 
 random_quote_generator('random-quotes.csv')
+# new comment
